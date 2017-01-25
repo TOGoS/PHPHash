@@ -1,0 +1,28 @@
+{
+	"name": "togos/hash",
+	"description": "Object-oriented message digest framework",
+	"license": "MIT",
+
+
+	"require": {
+		"php": ">=5.2"
+	},
+	"autoload": {
+		"psr-0": {
+			"TOGoS_Hash_": "lib/"
+		}
+	},
+
+
+	"require-dev": {
+		"phpunit/phpunit": "~3.7"
+	},
+	"autoload-dev": {
+		"psr-0": {
+			"TOGoS_Hash_": "test/"
+		}
+	},
+	"scripts": {
+		"test": "vendor/bin/phpunit --bootstrap vendor/autoload.php test/"
+	}
+}
